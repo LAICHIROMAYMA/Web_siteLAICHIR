@@ -1,0 +1,39 @@
+﻿@model Book_web.Models.User
+@{
+    ViewData["Title"] = "Singup";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row" style="margin-top:-1000px; background-color:orange; height:350px;box-shadow:-1px 1px 3px 1px black unset;">
+    <h1 style="        color: orange;
+        font-size: 20px;
+">INSCRIPTION</h1>
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger" type="password"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="S'inscrire" class="btn btn-primary" />
+            </div>
+            <div style="border:5px 3px 3px 3px green;">
+                <h2>Clients enregistrés</h2>
+                <p>Si vous avez déjà un compte, veuillez vous identifier.</p><a href="Singin" style="text-decoration:none;">client enregistré ?</a>
+            </div>
+        </form>
+    </div>
+</div>
+

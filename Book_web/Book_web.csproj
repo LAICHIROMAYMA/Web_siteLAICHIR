@@ -1,0 +1,247 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\img\amex.jpg" />
+    <Content Remove="wwwroot\img\bo.png" />
+    <Content Remove="wwwroot\img\book.jpg" />
+    <Content Remove="wwwroot\img\cart.png" />
+    <Content Remove="wwwroot\img\cbook.jpg" />
+    <Content Remove="wwwroot\img\facebook.png" />
+    <Content Remove="wwwroot\img\Fairy.png" />
+    <Content Remove="wwwroot\img\fan-1.jpg" />
+    <Content Remove="wwwroot\img\fan-2.jpg" />
+    <Content Remove="wwwroot\img\fan-3.png" />
+    <Content Remove="wwwroot\img\fan-4.jpg" />
+    <Content Remove="wwwroot\img\fan-5.jpg" />
+    <Content Remove="wwwroot\img\fan1-1.jpg" />
+    <Content Remove="wwwroot\img\fan1-2.jpg" />
+    <Content Remove="wwwroot\img\favicon.ico" />
+    <Content Remove="wwwroot\img\favorites.png" />
+    <Content Remove="wwwroot\img\gus.png" />
+    <Content Remove="wwwroot\img\im7.jpg" />
+    <Content Remove="wwwroot\img\image1.png" />
+    <Content Remove="wwwroot\img\image2.png" />
+    <Content Remove="wwwroot\img\img.jpg" />
+    <Content Remove="wwwroot\img\img1.jpg" />
+    <Content Remove="wwwroot\img\img2.jpg" />
+    <Content Remove="wwwroot\img\laboite.jpg" />
+    <Content Remove="wwwroot\img\linkdin.png" />
+    <Content Remove="wwwroot\img\logo.png" />
+    <Content Remove="wwwroot\img\logo2.png" />
+    <Content Remove="wwwroot\img\magic.PNG" />
+    <Content Remove="wwwroot\img\MasterCard_Logo.png" />
+    <Content Remove="wwwroot\img\paypal.png" />
+    <Content Remove="wwwroot\img\phi-1-1.jpg" />
+    <Content Remove="wwwroot\img\phi-1-2.jpg" />
+    <Content Remove="wwwroot\img\phi-1.jpg" />
+    <Content Remove="wwwroot\img\phi-2.jpg" />
+    <Content Remove="wwwroot\img\phi-3.jpg" />
+    <Content Remove="wwwroot\img\pic-1-1.jpg" />
+    <Content Remove="wwwroot\img\pic-1.jpg" />
+    <Content Remove="wwwroot\img\pic-2-1.jpg" />
+    <Content Remove="wwwroot\img\pic-2-2.jpg" />
+    <Content Remove="wwwroot\img\pic-2.jpg" />
+    <Content Remove="wwwroot\img\pic-3.jpg" />
+    <Content Remove="wwwroot\img\pic-4.jpg" />
+    <Content Remove="wwwroot\img\pic-5.jpg" />
+    <Content Remove="wwwroot\img\pic-6.jpg" />
+    <Content Remove="wwwroot\img\pic1-2.jpg" />
+    <Content Remove="wwwroot\img\pic3-2.png" />
+    <Content Remove="wwwroot\img\pic3-3.png" />
+    <Content Remove="wwwroot\img\search.png" />
+    <Content Remove="wwwroot\img\summer.jpg" />
+    <Content Remove="wwwroot\img\twitter.jpg" />
+    <Content Remove="wwwroot\img\user.png" />
+    <Content Remove="wwwroot\img\Visa-card.png" />
+    <Content Remove="wwwroot\img\youtube.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="css\animate.css" />
+    <None Remove="css\bootstrap.min.css" />
+    <None Remove="css\classy-nav.min.css" />
+    <None Remove="css\core-style.css" />
+    <None Remove="css\core-style.css.map" />
+    <None Remove="css\font-awesome.min.css" />
+    <None Remove="css\jquery-ui.min.css" />
+    <None Remove="css\magnific-popup.css" />
+    <None Remove="css\nice-select.css" />
+    <None Remove="css\owl.carousel.css" />
+    <None Remove="css\site.css" />
+    <None Remove="css\style.css" />
+    <None Remove="js\active.js" />
+    <None Remove="js\bootstrap.min.js" />
+    <None Remove="js\classy-nav.min.js" />
+    <None Remove="js\jquery\jquery-2.2.4.min.js" />
+    <None Remove="js\map-active.js" />
+    <None Remove="js\plugins.js" />
+    <None Remove="js\popper.min.js" />
+    <None Remove="js\site.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="css\animate.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="css\bootstrap.min.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="css\classy-nav.min.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="css\core-style.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="css\core-style.css.map">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="css\font-awesome.min.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="css\jquery-ui.min.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="css\magnific-popup.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="css\nice-select.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="css\owl.carousel.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="css\site.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="css\style.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="js\active.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="js\bootstrap.min.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="js\classy-nav.min.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="js\jquery\jquery-2.2.4.min.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="js\map-active.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="js\plugins.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="js\popper.min.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="js\site.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Book\" />
+    <Folder Include="Views\User\" />
+    <Folder Include="wwwroot\image_icon\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\core-style.css" />
+    <None Include="wwwroot\css\site.css" />
+    <None Include="wwwroot\img\amex.jpg" />
+    <None Include="wwwroot\img\bo.png" />
+    <None Include="wwwroot\img\book.jpg" />
+    <None Include="wwwroot\img\cart.png" />
+    <None Include="wwwroot\img\cbook.jpg" />
+    <None Include="wwwroot\img\facebook.png" />
+    <None Include="wwwroot\img\Fairy.png" />
+    <None Include="wwwroot\img\fan-1.jpg" />
+    <None Include="wwwroot\img\fan-2.jpg" />
+    <None Include="wwwroot\img\fan-3.png" />
+    <None Include="wwwroot\img\fan-4.jpg" />
+    <None Include="wwwroot\img\fan-5.jpg" />
+    <None Include="wwwroot\img\fan1-1.jpg" />
+    <None Include="wwwroot\img\fan1-2.jpg" />
+    <None Include="wwwroot\img\favicon.ico" />
+    <None Include="wwwroot\img\favorites.png" />
+    <None Include="wwwroot\img\gus.png" />
+    <None Include="wwwroot\img\im7.jpg" />
+    <None Include="wwwroot\img\image1.png" />
+    <None Include="wwwroot\img\image2.png" />
+    <None Include="wwwroot\img\img.jpg" />
+    <None Include="wwwroot\img\img1.jpg" />
+    <None Include="wwwroot\img\img2.jpg" />
+    <None Include="wwwroot\img\laboite.jpg" />
+    <None Include="wwwroot\img\linkdin.png" />
+    <None Include="wwwroot\img\logo.png" />
+    <None Include="wwwroot\img\logo2.png" />
+    <None Include="wwwroot\img\magic.PNG" />
+    <None Include="wwwroot\img\MasterCard_Logo.png" />
+    <None Include="wwwroot\img\paypal.png" />
+    <None Include="wwwroot\img\phi-1-1.jpg" />
+    <None Include="wwwroot\img\phi-1-2.jpg" />
+    <None Include="wwwroot\img\phi-1.jpg" />
+    <None Include="wwwroot\img\phi-2.jpg" />
+    <None Include="wwwroot\img\phi-3.jpg" />
+    <None Include="wwwroot\img\pic-1-1.jpg" />
+    <None Include="wwwroot\img\pic-1.jpg" />
+    <None Include="wwwroot\img\pic-2-1.jpg" />
+    <None Include="wwwroot\img\pic-2-2.jpg" />
+    <None Include="wwwroot\img\pic-2.jpg" />
+    <None Include="wwwroot\img\pic-3.jpg" />
+    <None Include="wwwroot\img\pic-4.jpg" />
+    <None Include="wwwroot\img\pic-5.jpg" />
+    <None Include="wwwroot\img\pic-6.jpg" />
+    <None Include="wwwroot\img\pic1-2.jpg" />
+    <None Include="wwwroot\img\pic3-2.png" />
+    <None Include="wwwroot\img\pic3-3.png" />
+    <None Include="wwwroot\img\search.png" />
+    <None Include="wwwroot\img\summer.jpg" />
+    <None Include="wwwroot\img\twitter.jpg" />
+    <None Include="wwwroot\img\user.png" />
+    <None Include="wwwroot\img\Visa-card.png" />
+    <None Include="wwwroot\img\youtube.jpg" />
+    <None Include="wwwroot\js\jquery\jquery-2.2.4.min.js" />
+  </ItemGroup>
+
+
+
+</Project>
